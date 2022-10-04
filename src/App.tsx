@@ -40,9 +40,7 @@ const App: React.FC = () => {
   const toggleDarkModeHandler = () => {
     document.body.classList.toggle("dark");
     console.log(document.body.classList);
-  };
-
-  
+  };  
 
   const openCapacitorSite = async () => {
     await Browser.open({ toolbarColor:"#f4dc41", url: 'https://meta-pdv-ambev-dev.bravium.com.br/07e076158f1bd4205774158da972c165' });
